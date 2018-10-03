@@ -1,0 +1,9 @@
+div.cityInfo > h3 > small
+{
+	font-size : 14px;
+}
+
+div#weatherMap
+{
+	min-height : 400px;
+}

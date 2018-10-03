@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Weather Api</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1"/>
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"></link>
+</head>
+<body>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">OpenWeather App</a>
+			</div>
+			<div class="col-xs-1 navbar-right"></div>
+			
+			<div class="col-xs-4 navbar-right">
+				<div class="navbar-form">
+						<div class="col-xs-12">
+							<input type="text" placeholder="Search other cities" class="form-control cityTxtBox" id="cityTxtBox"/>
+						</div>
+						<!--<div class="input-group-btn">
+							<button class="btn searchCity"><span class="glyphicon glyphicon-search"></span></button>
+						</div> -->
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12" id="mapContainer" style="display:none;">
+				<div class="panel panel-primary cityPanel">
+					<div class="panel-heading"></div>
+					<div class="panel-body"></div>
+					<div class="panel-footer"></div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-xs-12" id="weatherMap"></div>
+		</div>
+	</div>
+</body>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCavNvJykzfYAlCxZ-BG_e6rf6G_4g2eIY&libraries=places"></script>
+<script type="text/javascript" src="js/weather.js"></script>
+<link type="text/css" rel="stylesheet" href="css/index.css"></link>
+</html>
