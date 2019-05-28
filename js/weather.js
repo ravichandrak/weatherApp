@@ -1,7 +1,7 @@
 $('document').ready(function() {
 	var watchId;
-	var weatherApiKey = '74ec58542bb5f132e474d5a59268408e';
-	var googleApiKey = 'AIzaSyCavNvJykzfYAlCxZ-BG_e6rf6G_4g2eIY'; 
+	var weatherApiKey = '******************';
+	var googleApiKey = '*******************'; 
 	
 	var months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
 	var day = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
