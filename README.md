@@ -1,2 +1,3 @@
 # weatherApp
-# Web application using OpenWeatherMap and google map api.
+
+Web application using OpenWeatherMap and google map api.
